@@ -7,10 +7,7 @@ I have also set up **Continuous Integration** with Jest and GitHub Actions to au
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Test Coverage
-<img src="./public/badges/badge-lines.svg" alt="badge-lines">
-<img src="./public/badges/badge-branches.svg" alt="badge-branches">
-<img src="./public/badges/badge-functions.svg" alt="badge-functions">
-<img src="./public/badges/badge-statements.svg" alt="badge-statements">
+<img src="./public/badges/badge-lines.svg" alt="badge-lines"> <img src="./public/badges/badge-branches.svg" alt="badge-branches"> <img src="./public/badges/badge-functions.svg" alt="badge-functions"> <img src="./public/badges/badge-statements.svg" alt="badge-statements">
 
 
 ## Tech Stack
