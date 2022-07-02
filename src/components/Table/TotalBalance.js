@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { roundTwoDecimals } from '../../utils/table.helpers';
 
 export default function TotalBalance({ clientData }) {
+
   const getTotalBalance = (clientData) => {
     let total = 0;
     clientData.forEach((client) => {

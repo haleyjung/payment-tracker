@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
 import TableHead from './components/Table/TableHead';
 import TableBody from './components/Table/TableBody';
 import TableButtons from './components/Buttons/TableButtons';
 import TotalBalance from './components/Table/TotalBalance';
-
+import RowCount from './components/Table/RowCount';
 import './App.css';
 
 export default function App() {
+
   const [clientData, setClientData] = useState([
     {
       id: 0,
@@ -64,6 +64,7 @@ export default function App() {
         </table>
         <TableButtons clientData={clientData} setClientData={setClientData} />
         <TotalBalance clientData={clientData} />
+        <RowCount clientData={clientData} />
       </div>
     </div>
   );
