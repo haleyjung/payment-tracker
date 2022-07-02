@@ -1,12 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { checkAllRows } from '../utils/table.helpers';
 
 export default function TableHead({ clientData, setClientData }) {
+  const handleCheckAllRows = (e) => {
+    const checkedRows = checkAllRows(e, clientData);
+    setClientData(checkedRows);
+  };
+
   return (
     <thead data-testid="thead">
       <tr>
         <th>
-          <input type="checkbox" name="checkbox" value="checkedall" />
+          <input
+            data-testid="master-checkbox"
+            type="checkbox"
+            name="checkbox"
+            value="checked-all"
+            onChange={handleCheckAllRows}
+          />
         </th>
         <th>Creditor</th>
         <th>First Name</th>
