@@ -52,4 +52,14 @@ describe('App component', () => {
     const tbody = screen.getByTestId('tbody');
     expect(tbody).toContainElement(tbody);
   });
+
+  test('renders two buttons', () => {
+    render(<App/>);
+
+    const buttonsContainer = screen.getByTestId('buttons-container');
+    expect(buttonsContainer).toBeInTheDocument();
+
+    const buttons = screen.getAllByRole('button');
+    expect(buttons).toHaveLength(2);
+  })
 });

@@ -1,5 +1,5 @@
 import { checkAllRows, checkEachRow, roundTwoDecimals } from './table.helpers';
-import { mockClientData } from '../dummyData/testData';
+import { mockClientData } from '../dummyData/test';
 
 describe("checkAllRows", () => {
   test('toggles the checked state of all rows on clicking the checkbox in the header', () => {
