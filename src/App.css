@@ -8,3 +8,48 @@
   margin: auto;
   font-size: calc(6px + 1vmin);
 }
+
+table {
+  width: 700px;
+  max-width: 80vw;
+  margin: 0 auto;
+  display: block;
+  overflow-x: auto;
+  /* border-spacing: 0; */
+  text-align: left;
+  table-layout: fixed;
+}
+
+th:nth-last-child(-n+2),
+td:nth-last-child(-n+2) {
+  text-align: right;
+}
+
+th:first-child,
+td:first-child {
+  border: none;
+  width: 6em;
+  text-align: center;
+}
+
+th, td {
+  width: 7em;
+}
+
+th {
+  border: 1px solid black;
+  position: sticky;
+  top: 0;
+  border-collapse: collapse;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid var(--gray);
+  border-collapse: separate;
+}
+
+th.min-pay {
+  width: 9%;
+}
