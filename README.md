@@ -6,6 +6,8 @@ I added **unit tests** using Jest and React Testing Library and achieved 100% co
 
 I have also set up **Continuous Integration** with Jest and GitHub Actions to automate unit tests when we push to the main branch or create a pull request from any branch to main.
 
+Click [here](./public/mov/codingChallenge.mov) to view my video walkthrough!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Test Coverage

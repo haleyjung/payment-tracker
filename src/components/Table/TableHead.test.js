@@ -16,9 +16,8 @@ const renderTableHead = (mockClientData) => {
 
 describe('Table Head', () => {
   test('renders all the headers correctly', () => {
-    const TableHead = renderTableHead(mockClientData);
+    renderTableHead(mockClientData);
 
-    expect(TableHead).toBeTruthy();
     expect(screen.getByTestId('master-checkbox')).toBeInTheDocument();
     expect(screen.getByText('Creditor')).toBeInTheDocument();;
     expect(screen.getByText('First Name')).toBeInTheDocument();;
