@@ -1,6 +1,6 @@
 # Strafts Coding Challenge 🔥
 
-![codingChallengeTable](https://user-images.githubusercontent.com/73789849/177018893-df0a4c88-2021-4c92-8f52-bcaf77815d9b.png)
+![codingChallengeTable](https://user-images.githubusercontent.com/73789849/177018913-2294cce3-b549-4dd3-829c-51c9c56b6a69.png)
 
 For this project, I created a table to track clients' debt payment status with **JSON data** fetched from the provided API. I used **prop-types** library to ensure the values passed to a component have the correct datatype.
 
