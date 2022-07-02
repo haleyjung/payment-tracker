@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { roundTwoDecimals, checkEachRow } from '../utils/table.helpers';
+import { roundTwoDecimals, checkEachRow } from '../../utils/table.helpers';
 
 export default function TableBody({ clientData, setClientData }) {
 

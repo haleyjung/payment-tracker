@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import TableHead from './components/Table/TableHead';
 import TableBody from './components/Table/TableBody';
+import TableButtons from './components/Buttons/TableButtons';
 
 import './App.css';
 
@@ -60,6 +61,7 @@ export default function App() {
           <TableHead clientData={clientData} setClientData={setClientData} />
           <TableBody clientData={clientData} setClientData={setClientData} />
         </table>
+        <TableButtons clientData={clientData} setClientData={setClientData} />
       </div>
     </div>
   );

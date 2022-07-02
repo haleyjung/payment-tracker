@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import TableHead from './TableHead';
-import { mockClientData } from '../dummyData/testData';
+import { mockClientData } from '../../dummyData/test';
 
 const renderTableHead = (mockClientData) => {
   const table = document.createElement('table');

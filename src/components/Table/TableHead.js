@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { checkAllRows } from '../utils/table.helpers';
+import { checkAllRows } from '../../utils/table.helpers';
 
 export default function TableHead({ clientData, setClientData }) {
   const handleCheckAllRows = (e) => {

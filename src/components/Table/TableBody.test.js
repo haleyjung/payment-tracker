@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, within } from '@testing-library/react';
 import TableBody from './TableBody';
-import { mockClientData } from '../dummyData/testData';
+import { mockClientData } from '../../dummyData/test';
 
 const renderTableBody = (mockClientData) => {
   const table = document.createElement('table');
@@ -15,8 +15,7 @@ const renderTableBody = (mockClientData) => {
 
 describe('Table Body', () => {
   test('renders each row of a table with a checkbox and correct client data', () => {
-    const TableBody = renderTableBody(mockClientData);
-    expect(TableBody).toBeTruthy();
+    renderTableBody(mockClientData);
 
     mockClientData.forEach((client) => {
       const row = screen.getByTestId(client.id);
