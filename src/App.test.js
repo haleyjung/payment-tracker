@@ -69,4 +69,10 @@ describe('App component', () => {
     expect(balanceContainer).toBeInTheDocument();
     expect(screen.getByText('$', {exact: false})).toBeInTheDocument();
   });
+
+  test('renders row count', () => {
+    render(<App/>);
+    const rowCountContainer = screen.getByTestId('row-count');
+    expect(rowCountContainer).toBeInTheDocument();
+  });
 });
