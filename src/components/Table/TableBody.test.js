@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, screen, fireEvent, within } from '@testing-library/react';
 import TableBody from './TableBody';
 import { mockClientData } from '../dummyData/testData';
