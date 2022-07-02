@@ -54,12 +54,19 @@ describe('App component', () => {
   });
 
   test('renders two buttons', () => {
-    render(<App/>);
+    render(<App />);
 
     const buttonsContainer = screen.getByTestId('buttons-container');
     expect(buttonsContainer).toBeInTheDocument();
 
     const buttons = screen.getAllByRole('button');
     expect(buttons).toHaveLength(2);
-  })
+  });
+
+  test('renders total balance', () => {
+    render(<App />);
+    const balanceContainer = screen.getByTestId('total-balance');
+    expect(balanceContainer).toBeInTheDocument();
+    expect(screen.getByText('$', {exact: false})).toBeInTheDocument();
+  });
 });

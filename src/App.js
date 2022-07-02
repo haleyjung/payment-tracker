@@ -4,6 +4,7 @@ import axios from 'axios';
 import TableHead from './components/Table/TableHead';
 import TableBody from './components/Table/TableBody';
 import TableButtons from './components/Buttons/TableButtons';
+import TotalBalance from './components/Table/TotalBalance';
 
 import './App.css';
 
@@ -62,6 +63,7 @@ export default function App() {
           <TableBody clientData={clientData} setClientData={setClientData} />
         </table>
         <TableButtons clientData={clientData} setClientData={setClientData} />
+        <TotalBalance clientData={clientData} />
       </div>
     </div>
   );
