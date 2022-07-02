@@ -15,7 +15,6 @@ export default function TableBody({ clientData, setClientData }) {
         <tr data-testid={client.id} key={Math.random()}>
           <th>
             <input
-              data-testid="checkbox"
               type="checkbox"
               name="checkbox"
               value={client.id}
