@@ -1,6 +1,8 @@
 # Strafts Coding Challenge 🔥
 
-For this project, I created a table to track clients' debt payment status with **JSON data** fetched from the provided API. I added **unit tests** using Jest and React Testing Library and achieved 100% code coverage.
+For this project, I created a table to track clients' debt payment status with **JSON data** fetched from the provided API. I used **prop-types** library to ensure the values passed to a component have the correct datatype.
+
+I added **unit tests** using Jest and React Testing Library and achieved 100% code coverage. I wrote the tests parallel to the production code, which helped me to foresee and question the expected behavior of the code with less time spent on debugging and refactoring codes.
 
 I have also set up **Continuous Integration** with Jest and GitHub Actions to automate unit tests when we push to the main branch or create a pull request from any branch to main.
 
