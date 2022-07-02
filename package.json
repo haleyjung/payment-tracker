@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "jest-coverage-badges": "^1.1.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll",
     "workflow": "react-scripts test --forceExit --detectOpenHandles",
+    "test:coverage": "npm test -- --coverage",
+    "test:badges": "npm run test:coverage && jest-coverage-badges",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,6 +44,11 @@
   "jest": {
     "coveragePathIgnorePatterns": [
       "src/index.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
     ]
   }
 }
