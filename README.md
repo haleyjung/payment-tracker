@@ -1,4 +1,4 @@
-# Strafts Coding Challenge 🔥
+# StratFS Coding Challenge 🔥
 
 ![codingChallengeTable](https://user-images.githubusercontent.com/73789849/177018913-2294cce3-b549-4dd3-829c-51c9c56b6a69.png)
 
