@@ -1,4 +1,4 @@
-# Strafts Coding Challenge 🔥
+# StratFS Coding Challenge 🔥
 
 For this project, I created a table to track clients' debt payment status with **JSON data** fetched from the provided API. I used **prop-types** library to ensure the values passed to a component have the correct datatype.
 

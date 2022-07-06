@@ -51,7 +51,7 @@ export default function App() {
   return (
     <div className="app" data-testid="app">
       <h1>
-        Strafts Coding Challenge
+        StratFS Coding Challenge
         <span role="img" aria-label="Fire">
           {' '}
           🔥{' '}
